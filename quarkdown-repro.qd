@@ -1,0 +1,24 @@
+.docname {repro}
+.doctype {paged}
+.doclang {German (Germany)}
+.theme {paperwhite} layout:{latex}
+
+.docauthors
+  - Lu Kas
+
+.pagemargin {bottomcenter}
+    .currentpage
+
+# repro
+
+Welcome to [Quarkdown](https://github.com/iamgio/quarkdown)! This is the starting point of your document.
+
+- To compile this document, please `cd` to this file's parent directory and run:  
+  `quarkdown c quarkdown-repro.qd`
+
+- To enable live preview, run:  
+  `quarkdown c quarkdown-repro.qd -p -w`
+
+For further information and guides, please check out the [official wiki](https://github.com/iamgio/quarkdown/wiki).
+
+!(50%)[Quarkdown](image/logo.png)
