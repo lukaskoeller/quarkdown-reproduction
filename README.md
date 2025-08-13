@@ -7,9 +7,6 @@ Run:
 quarkdown c quarkdown-repro.qd --pdf
 ```
 
-> [!TIP]
-> Remove the `.npmrc` file.
-
 Output:
 ```zsh
 quarkdown c quarkdown-repro.qd --pdf
@@ -31,3 +28,6 @@ Exception in thread "main" java.lang.IllegalStateException: NPM executable canno
         at com.github.ajalt.clikt.core.CoreCliktCommandKt.main(CoreCliktCommand.kt:90)
         at com.quarkdown.cli.QuarkdownCliKt.main(QuarkdownCli.kt:27)
 ```
+
+> [!TIP]
+> Removing the `.npmrc` file fixes the issue from above
